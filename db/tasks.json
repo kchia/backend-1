@@ -1,0 +1,16 @@
+[
+	{
+		"title": "First to-do",
+		"body": "This is a test, we want to try our to-do list",
+		"dueDate": "2020-08-18",
+		"createdDate": "2020-08-17",
+		"priority": 1
+	},
+	{
+		"title": "Second to-do",
+		"body": "This is also a test, we want to try a second to-do on our list",
+		"dueDate": "2020-08-18",
+		"createdDate": "2020-08-17",
+		"priority": 1
+	}
+]

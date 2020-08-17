@@ -1,12 +1,11 @@
-const mongoose = require('../db/connection');
+const mongoose = require('../connection');
 
 const TaskSchema = mongoose.Schema({
 	title: String,
-    body: String,
-    dueDate:Date,
-    createdDate:Date,
-    priority:Number,
-
+	body: String,
+	dueDate: Date,
+	createdDate: Date,
+	priority: Number,
 });
 
 const Task = mongoose.model('task', TaskSchema);
