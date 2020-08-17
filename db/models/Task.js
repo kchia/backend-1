@@ -1,7 +1,10 @@
 const mongoose = require('../connection');
 
 const TaskSchema = mongoose.Schema({
-	title: String,
+	title: {
+		type :String,
+		required : true
+	},
 	body: String,
 	dueDate: Date,
 	createdDate: Date,
