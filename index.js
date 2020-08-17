@@ -4,7 +4,7 @@ const taskController = require('./controllers/tasks');
 const app = express();
 const cors = require('cors');
 
-// Instantiate up cors
+// Instantiate App with cors
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
