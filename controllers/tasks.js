@@ -7,6 +7,10 @@ router.get('/', (req, res) => {
 	Task.find({}).then((task) => res.json(task));
 });
 
+
+
+
+
 router.post('/', (req, res) => {
 	let newTask = req.body;
 
@@ -17,8 +21,22 @@ router.post('/', (req, res) => {
 	});
 });
 
+
+
+
+router.put("/:id", (req, res) => {
+    let newTask = req.body;
+    User.findOneAndUpdate({ id: req.params.id }, newTask, { new: true }).then(
+      (newTask) => {
+        res.json(newTask);
+      }
+    );
+  });
+
+
+
 router.delete('/:id', (req, res) => {
-	newTask.findOneAndDelete({ title: req.params.id }).then((deletedTask) => {
+	newTask.findOneAndDelete({ id: req.params.id }).then((deletedTask) => {
 		res.json(deletedTask);
 	});
 });
