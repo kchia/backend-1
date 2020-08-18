@@ -4,7 +4,18 @@
 		"body": "This is a test, we want to try our to-do list",
 		"dueDate": "2020-08-18",
 		"createdDate": "2020-08-17",
-		"priority": 1
+        "priority": 1
+        
+
+    "title": "First to-do",
+	"body": "This is a test, we want to try",
+	"createdDate": "2020-08-18",
+	"priority": 5,
+	"completed": false,
+	"completedDate": Date,
+	dueDate: String,
+
+
 	},
 	{
 		"title": "Second to-do",
