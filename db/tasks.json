@@ -2,11 +2,11 @@
 	{
 		"title": "First to-do",
 		"body": "This is the body of the to do",
-		"priority": 1,
 		"createdDate": "2020-08-18",
-		"dueDate": "due date string",
+		"priority": 1,
 		"completed": false,
-		"completedDate": "2020-08-18"
+		"completedDate": "2020-08-18",
+		"dueDate": "due date string"
 
 		// This is the original model that we used. Updated to the model above this one.
 		// "title": "First to-do",
