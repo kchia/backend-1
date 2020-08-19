@@ -7,13 +7,6 @@
 		"completed": false,
 		"completedDate": "2020-08-18",
 		"dueDate": "due date string"
-
-		// This is the original model that we used. Updated to the model above this one.
-		// "title": "First to-do",
-		// "body": "This is a test, we want to try our to-do list",
-		// "dueDate": "2020-08-18",
-		// "createdDate": "2020-08-17",
-		// "priority": 1
 	},
 	{
 		"title": "First to-do",
