@@ -1,5 +1,3 @@
-# Tern app backend
-
 ### **Project 3 for GA's 622 cohort**
 
 **Team:**
@@ -22,6 +20,7 @@ Tern is a to-do list app. As a user you can create to-do list items, view and or
 <br>
 <br>
 
+# Tern app backend
 
 ## API
 
