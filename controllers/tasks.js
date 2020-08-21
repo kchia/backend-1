@@ -14,8 +14,6 @@ router.get('/', (req, res) => {
 router.post('/', (req, res) => {
 	let newTask = req.body;
 
-	console.log(newTask);
-
 	Task.create(newTask).then(() => {
 		res.json(newTask);
 	});
